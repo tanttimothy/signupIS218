@@ -1,0 +1,210 @@
+/* the styles for the elements */
+html {
+	background-color: white;
+}
+
+/* the styles for the body */
+main {
+	background-color: #E5E4E2;
+}
+main img {
+	padding-top: 0;
+	border-top: solid black;
+	border-bottom: solid black;
+	border-top-width: 18px;
+	border-bottom-width: 18px;
+	margin-bottom: 1%;
+}
+main header {
+	text-align: left;
+	width: 100%;
+	height: 20%;
+	color: grey;
+	font-size: 1em;
+	font-family: Courier;    
+}
+main header p#Slogan {
+	float: left;
+	color: white;
+	text-shadow: 2px 2px 1px black;
+	padding-left: .2%;
+}
+main header ul {
+	float: right;
+	padding-right: .2%;
+}
+main header ul li {
+	display: block;
+	float: left;
+	list-style: none;
+	padding-left: 3px;
+	padding-right: 3px;
+	border-left: solid black;
+	border-left-width: 1px;
+}
+main header ul li a {
+	display: block;
+	color: grey;
+}
+main header ul li a:hover {
+	display: block;
+	border-bottom: solid red;
+	border-width: 1px;
+	color: white;
+	font-size: 1em;
+	text-shadow: 1px 1px 0 black;
+}
+div.banner {
+	clear:both;
+	content:"sign.jpg";
+	background-image:url("sign.jpg");
+	background-size: cover;
+	padding-top:6%;
+	padding-bottom: 6%;
+	margin-top: 0;
+	border-bottom: solid red;
+	border-top: solid black;
+	border-width: 6px;
+}
+.banner h1{
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	text-shadow: 5px 3px 1px black;
+	color: white;
+	font-size: 2.3em;
+	text-align: left;
+	padding-left: 9%;
+	padding-top: 5%;
+	}
+
+.form-signin {
+  max-width: 350px;
+  padding: 13px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 28px;
+  font-size: 16px;
+  height: 10px;
+  border-color: #E5E4E2;
+  border-width: 3px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+  box-shadow: red;
+}
+
+#submitButton {
+	background-color: #FF6347;
+	border-color: grey;
+	font-size: 28px;
+}
+
+body h2 {
+	display: block;
+	text-align: center;
+	text-decoration: underline;
+	font-family: Tahoma;
+}
+
+aside {
+	display: block;
+	width: 43.5%;
+	float: left;
+	font-size: 1.3em;
+	border: double #E5E4E2;
+	border-width: 1.5px;
+	margin-bottom: 1%;
+	margin-left: 3.5%;
+}
+aside img {
+	float: left;
+	margin-right: 3.5%;
+	margin-left: 3.5%;
+	margin-top: 3.5%;
+	margin-bottom: 3.5%;
+}
+aside img:hover {
+	clear: both;
+	display: block;
+	height: 95%;
+	width: 90%;
+	border: double red;
+	border-width: 2px;
+}
+
+section{
+	display: block;
+	width: 43.5%;
+	float: right;
+	font-size: 1.3em;
+	border: double #E5E4E2;
+	border-width: 1.5px;
+	margin-bottom: 1%;
+	margin-right: 3.5%;
+}
+section img {
+	float: left;
+	margin-top: 3.5%;
+	margin-right: 3.5%;
+	margin-left: 3.5%;
+	margin-bottom: 3.5%;
+}
+section img:hover {
+	clear: both;
+	display: block;
+	height: 95%;
+	width: 90%;
+	border: double red;
+	border-width: 2px;
+}
+/* the styles for the header */
+header {
+	padding-top: 10px;
+	
+}
+
+/* the styles for the section */
+main {
+	
+}
+
+/* the styles for the footer */
+footer {
+	clear: both;
+	background-color: #E5E4E2;
+	color: grey;
+	text-align:center;
+	margin-top: 5%;
+	font-family: "Arial Rounded MT Bold";
+}
+.slicknav_menu {
+	display: none;
+}
+
+/* mobile landscape to tablet portrait */
+@media only screen and (max-width: 800px) {
+	#nav_menu {
+		display: none;
+	}
+	.slicknav_menu {
+		display: block;
+		background-color: #E5E4E2 !important;
+	}
+}
+
+/* mobile portrait to mobile landscape */
+@media only screen and (max-width: 479px) {
+	body { font-size: 90%; }
+}
